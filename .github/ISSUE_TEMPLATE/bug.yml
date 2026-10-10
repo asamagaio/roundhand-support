@@ -1,0 +1,21 @@
+name: Something isn't working
+description: Report a bug in Roundhand
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, and what did you expect to happen?
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: iPad model and iPadOS version
+      placeholder: e.g. iPad Air (M2), iPadOS 26.1
+  - type: input
+    id: version
+    attributes:
+      label: Roundhand version
+      placeholder: e.g. 1.0 (Library › ••• › About)
